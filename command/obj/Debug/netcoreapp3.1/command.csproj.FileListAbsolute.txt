@@ -1,0 +1,10 @@
+/Users/keith/Documents/Courses/sdp-sp3/2020/worksheet-eight-behavioural-design-patterns/command/bin/Debug/netcoreapp3.1/command.deps.json
+/Users/keith/Documents/Courses/sdp-sp3/2020/worksheet-eight-behavioural-design-patterns/command/bin/Debug/netcoreapp3.1/command.runtimeconfig.json
+/Users/keith/Documents/Courses/sdp-sp3/2020/worksheet-eight-behavioural-design-patterns/command/bin/Debug/netcoreapp3.1/command.runtimeconfig.dev.json
+/Users/keith/Documents/Courses/sdp-sp3/2020/worksheet-eight-behavioural-design-patterns/command/bin/Debug/netcoreapp3.1/command.dll
+/Users/keith/Documents/Courses/sdp-sp3/2020/worksheet-eight-behavioural-design-patterns/command/bin/Debug/netcoreapp3.1/command.pdb
+/Users/keith/Documents/Courses/sdp-sp3/2020/worksheet-eight-behavioural-design-patterns/command/obj/Debug/netcoreapp3.1/command.csprojAssemblyReference.cache
+/Users/keith/Documents/Courses/sdp-sp3/2020/worksheet-eight-behavioural-design-patterns/command/obj/Debug/netcoreapp3.1/command.AssemblyInfoInputs.cache
+/Users/keith/Documents/Courses/sdp-sp3/2020/worksheet-eight-behavioural-design-patterns/command/obj/Debug/netcoreapp3.1/command.AssemblyInfo.cs
+/Users/keith/Documents/Courses/sdp-sp3/2020/worksheet-eight-behavioural-design-patterns/command/obj/Debug/netcoreapp3.1/command.dll
+/Users/keith/Documents/Courses/sdp-sp3/2020/worksheet-eight-behavioural-design-patterns/command/obj/Debug/netcoreapp3.1/command.pdb

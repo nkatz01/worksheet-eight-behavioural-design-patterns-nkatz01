@@ -5,8 +5,6 @@ on the original GoF Behavioural Design Patterns
 
 --
 
-This worksheet is in two parts `README.md` (this file), and `README2.md`; this is solely so that the document is not too long, it could equally be one long document.
-
 In these exercises we will be examining the following design patterns:
 
 1. Chain of Responsibility 
@@ -47,7 +45,7 @@ In these exercises we will be examining the following design patterns:
 	The file type would be used by the handler to check if the file can be handled by them or not. 
 	If a handler can, it will process and save it, or it will forward it to the next handler in the chain.
 	
-	Your solution should satisfy the tests specified in the `TestChainofResponsibility` class from the repository.
+	Your solution should satisfy the tests specified in the `TestChainOfResponsibility` class from the repository.
 	The program should produce the following output:
 	```
 	Text Handler forwards request to Doc Handler
@@ -279,7 +277,4 @@ In these exercises we will be examining the following design patterns:
 	**********************************************************
 		Setting up for DENIM program	Button pressed.	Valve is opened...	Filling water...	Valve is closed...	Heater is on...	Temperature reached 30 C	Temperature is set to 30	Heater is off...	Start motor...	Rotating drum at 1400 rpm.	Adding detergent	Setting Soil Removal to medium	No softener is required	
 	```
-
-
---	
-Now you should continue to `README2.md` for the remainder of the exercises for this worksheet.
+	

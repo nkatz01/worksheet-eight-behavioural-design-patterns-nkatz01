@@ -1,0 +1,10 @@
+/Users/keith/Documents/Courses/sdp-sp3/2020/worksheet-eight-behavioural-design-patterns/mediator/bin/Debug/netcoreapp3.1/mediator.deps.json
+/Users/keith/Documents/Courses/sdp-sp3/2020/worksheet-eight-behavioural-design-patterns/mediator/bin/Debug/netcoreapp3.1/mediator.runtimeconfig.json
+/Users/keith/Documents/Courses/sdp-sp3/2020/worksheet-eight-behavioural-design-patterns/mediator/bin/Debug/netcoreapp3.1/mediator.runtimeconfig.dev.json
+/Users/keith/Documents/Courses/sdp-sp3/2020/worksheet-eight-behavioural-design-patterns/mediator/bin/Debug/netcoreapp3.1/mediator.dll
+/Users/keith/Documents/Courses/sdp-sp3/2020/worksheet-eight-behavioural-design-patterns/mediator/bin/Debug/netcoreapp3.1/mediator.pdb
+/Users/keith/Documents/Courses/sdp-sp3/2020/worksheet-eight-behavioural-design-patterns/mediator/obj/Debug/netcoreapp3.1/mediator.csprojAssemblyReference.cache
+/Users/keith/Documents/Courses/sdp-sp3/2020/worksheet-eight-behavioural-design-patterns/mediator/obj/Debug/netcoreapp3.1/mediator.AssemblyInfoInputs.cache
+/Users/keith/Documents/Courses/sdp-sp3/2020/worksheet-eight-behavioural-design-patterns/mediator/obj/Debug/netcoreapp3.1/mediator.AssemblyInfo.cs
+/Users/keith/Documents/Courses/sdp-sp3/2020/worksheet-eight-behavioural-design-patterns/mediator/obj/Debug/netcoreapp3.1/mediator.dll
+/Users/keith/Documents/Courses/sdp-sp3/2020/worksheet-eight-behavioural-design-patterns/mediator/obj/Debug/netcoreapp3.1/mediator.pdb
