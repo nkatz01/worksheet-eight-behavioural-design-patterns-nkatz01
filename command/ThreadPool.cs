@@ -4,34 +4,58 @@ using System.Threading;
 
 namespace command
 {
-    public class ThreadPool<T> where T: IJob
+    public class ThreadPool<T> where T : IJob
     {
+        
         private static BlockingCollection<T> jobQueue = new BlockingCollection<T>();
         private Thread[] jobThreads;
-        private static bool shutdown; 
+        private static bool shutdown;
 
         public ThreadPool(int numberOfThreads)
         {
+            jobThreads = new Thread[numberOfThreads];
             for (var i = 0; i < numberOfThreads; i++)
             {
-                throw new System.NotImplementedException();
+                Worker w = new Worker();
+               
+                jobThreads[i]= new Thread(new ThreadStart(w.Run));
+                jobThreads[i].Name = i.ToString();
+              //  jobThreads[i].Start();
+              //  jobThreads[i].Join();
+
+
             }
         }
 
         public void AddJob(T emailJob)
         {
-            throw new System.NotImplementedException();
+            jobQueue.Add(emailJob);
+            
         }
 
-        public void ShutdownPool()
+        public void startPool()
+        {
+            foreach (var thr in jobThreads)
+            {
+                thr.Start();
+                
+
+                        
+            }
+        }
+  
+       public void ShutdownPool()
         {
             const int sleepTime = 1000;
 
+             Thread.Sleep(sleepTime);
+
             while (jobQueue.Count > 0)
             {
+
                 try
                 {
-                    // some code here?
+                    var r = jobQueue.Take();
                 }
                 catch (ThreadInterruptedException ex)
                 {
@@ -42,27 +66,41 @@ namespace command
             shutdown = true;
             foreach (var workerThread in jobThreads)
             {
-                workerThread.Interrupt();
+              workerThread.Interrupt();
             }
         }
+        
 
-        private class Worker(string name) : ThreadLocal<IJob>
+
+        public class Worker : ThreadLocal<IJob>
         {
-            void Run()
+
+            static readonly object _object = new object();
+            public void Run()
+        {
+            while (!shutdown    )
             {
-                while (!shutdown)
-                {
-                    try
-                    {
-                        var r = jobQueue.Take();
+                   
+                try
+                {    
+                    var r = jobQueue.Take();
+                           
+
+                           Console.Write($"Job ID: {Thread.CurrentThread.Name} ");
+
                         r.Run();
-                    }
-                    catch (ThreadInterruptedException ex)
-                    {
-                        // some code here?
-                    }
+                         
                 }
+                        
+
+                catch (ThreadInterruptedException ex)
+                {
+                    Console.WriteLine(ex.Message);
+                }
+                   
+
             }
         }
     }
+}
 }

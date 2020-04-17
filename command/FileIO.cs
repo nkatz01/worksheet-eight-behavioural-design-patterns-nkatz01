@@ -1,7 +1,9 @@
+using System;
+
 namespace command
 {
     public class FileIO
     {
-        public void Execute() => throw new System.NotImplementedException();
+        public void Execute() => Console.WriteLine("Executing File IO operations...");
     }
 }

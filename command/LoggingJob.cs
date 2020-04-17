@@ -1,12 +1,21 @@
+using System;
+
 namespace command
 {
     public class LoggingJob : IJob
     {
+       
         public Logging Logging { set; get; }
 
         public void Run()
         {
-            throw new System.NotImplementedException();
+            if (Logging != null) { 
+             Console.WriteLine("Executing Logging jobs");
+            Logging.Log();}
+       
         }
+
+       
+            
     }
 }

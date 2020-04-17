@@ -7,7 +7,14 @@ namespace worksheet_eight_behavioural_design_patterns
     {
         public File(string fileName, string type, string location)
         {
-            
+            FileName = fileName;
+            Type = type;
+            Location = location;
         }  
+
+        public string FileName { get; set; }
+        public string Type { get; set; }
+
+        public string Location { get; set; }
     }
 }

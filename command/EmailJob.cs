@@ -1,12 +1,20 @@
+using System;
+
 namespace command
 {
     public class EmailJob : IJob
     {
+        private Email email { get; set; }
         public void Run()
         {
-            throw new System.NotImplementedException();
+            if (email != null)
+            {
+                Console.WriteLine("Executing email jobs");
+                email.SendEmail();
+            }
+           
         }
 
-        public void Email(Email email) => throw new System.NotImplementedException();
+        public void Email(Email email) => this.email = email;
     }
 }

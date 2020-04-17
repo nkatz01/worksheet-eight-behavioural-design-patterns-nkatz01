@@ -1,7 +1,9 @@
+using System;
+
 namespace command
 {
     public class Sms
     {
-        public void SendSms() => throw new System.NotImplementedException();
+        public void SendSms() => Console.WriteLine("Sending SMS...");
     }
 }

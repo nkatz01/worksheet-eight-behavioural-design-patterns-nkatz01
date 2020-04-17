@@ -8,3 +8,14 @@
 /Users/keith/Documents/Courses/sdp-sp3/2020/worksheet-eight-behavioural-design-patterns/command/obj/Debug/netcoreapp3.1/command.AssemblyInfo.cs
 /Users/keith/Documents/Courses/sdp-sp3/2020/worksheet-eight-behavioural-design-patterns/command/obj/Debug/netcoreapp3.1/command.dll
 /Users/keith/Documents/Courses/sdp-sp3/2020/worksheet-eight-behavioural-design-patterns/command/obj/Debug/netcoreapp3.1/command.pdb
+C:\Users\nuche\OneDrive\Documents\worksheet-eight-behavioural-design-patterns-nkatz01\command\obj\Debug\netcoreapp3.1\command.csprojAssemblyReference.cache
+C:\Users\nuche\OneDrive\Documents\worksheet-eight-behavioural-design-patterns-nkatz01\command\obj\Debug\netcoreapp3.1\command.AssemblyInfoInputs.cache
+C:\Users\nuche\OneDrive\Documents\worksheet-eight-behavioural-design-patterns-nkatz01\command\obj\Debug\netcoreapp3.1\command.AssemblyInfo.cs
+C:\Users\nuche\OneDrive\Documents\worksheet-eight-behavioural-design-patterns-nkatz01\command\obj\Debug\netcoreapp3.1\command.dll
+C:\Users\nuche\OneDrive\Documents\worksheet-eight-behavioural-design-patterns-nkatz01\command\obj\Debug\netcoreapp3.1\command.pdb
+C:\Users\nuche\OneDrive\Documents\worksheet-eight-behavioural-design-patterns-nkatz01\command\bin\Debug\netcoreapp3.1\command.exe
+C:\Users\nuche\OneDrive\Documents\worksheet-eight-behavioural-design-patterns-nkatz01\command\bin\Debug\netcoreapp3.1\command.deps.json
+C:\Users\nuche\OneDrive\Documents\worksheet-eight-behavioural-design-patterns-nkatz01\command\bin\Debug\netcoreapp3.1\command.runtimeconfig.json
+C:\Users\nuche\OneDrive\Documents\worksheet-eight-behavioural-design-patterns-nkatz01\command\bin\Debug\netcoreapp3.1\command.runtimeconfig.dev.json
+C:\Users\nuche\OneDrive\Documents\worksheet-eight-behavioural-design-patterns-nkatz01\command\bin\Debug\netcoreapp3.1\command.dll
+C:\Users\nuche\OneDrive\Documents\worksheet-eight-behavioural-design-patterns-nkatz01\command\bin\Debug\netcoreapp3.1\command.pdb

@@ -1,7 +1,9 @@
+using System;
+
 namespace command
 {
     public class Logging
     {
-        public void Log() => throw new System.NotImplementedException();
+        public void Log() => Console.WriteLine("Logging...");
     }
 }

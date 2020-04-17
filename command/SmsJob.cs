@@ -1,15 +1,22 @@
+using System;
+
 namespace command
 {
     public class SmsJob : IJob
     {
+        private Sms sms { set; get; }
         public void Run()
         {
-            throw new System.NotImplementedException();
+            if (sms != null)
+            {
+                Console.WriteLine("Executing sms jobs");
+                sms.SendSms();
+            }
         }
 
         public void Sms(Sms sms)
         {
-            throw new System.NotImplementedException();
+            this.sms = sms;  
         }
     }
 }

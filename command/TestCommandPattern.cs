@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Threading;
 
 namespace command
 {
@@ -27,7 +28,8 @@ namespace command
                 pool.AddJob(fileIOJob);
                 pool.AddJob(logJob);
             }
-
+          pool.startPool();
+            Thread.Sleep(50);
             pool.ShutdownPool();
         }
     }
