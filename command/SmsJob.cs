@@ -1,4 +1,5 @@
 using System;
+using System.Threading;
 
 namespace command
 {
@@ -9,7 +10,7 @@ namespace command
         {
             if (sms != null)
             {
-                Console.WriteLine("Executing sms jobs");
+                Console.WriteLine($"Job ID {Thread.CurrentThread.ManagedThreadId} Executing sms jobs");
                 sms.SendSms();
             }
         }

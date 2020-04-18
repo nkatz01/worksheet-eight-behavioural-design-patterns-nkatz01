@@ -1,4 +1,5 @@
 using System;
+using System.Threading;
 
 namespace command
 {
@@ -10,7 +11,7 @@ namespace command
         public void Run()
         {
             if (Logging != null) { 
-             Console.WriteLine("Executing Logging jobs");
+             Console.WriteLine($"Job ID {Thread.CurrentThread.ManagedThreadId} Executing Logging jobs");
             Logging.Log();}
        
         }

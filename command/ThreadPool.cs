@@ -6,10 +6,9 @@ namespace command
 {
     public class ThreadPool<T> where T : IJob
     {
-        
         private static BlockingCollection<T> jobQueue = new BlockingCollection<T>();
         private Thread[] jobThreads;
-        private static bool shutdown;
+        private static bool shutdown = false;
 
         public ThreadPool(int numberOfThreads)
         {
@@ -17,45 +16,31 @@ namespace command
             for (var i = 0; i < numberOfThreads; i++)
             {
                 Worker w = new Worker();
-               
-                jobThreads[i]= new Thread(new ThreadStart(w.Run));
-                jobThreads[i].Name = i.ToString();
-              //  jobThreads[i].Start();
-              //  jobThreads[i].Join();
 
-
+                jobThreads[i] = new Thread(w.Run);
+              //  jobThreads[i].Name = i.ToString();
+                jobThreads[i].Start();
             }
+
+         
         }
 
         public void AddJob(T emailJob)
         {
             jobQueue.Add(emailJob);
-            
         }
 
-        public void startPool()
-        {
-            foreach (var thr in jobThreads)
-            {
-                thr.Start();
-                
-
-                        
-            }
-        }
-  
-       public void ShutdownPool()
+          public void ShutdownPool()
         {
             const int sleepTime = 1000;
 
-             Thread.Sleep(sleepTime);
-
             while (jobQueue.Count > 0)
             {
-
                 try
                 {
-                    var r = jobQueue.Take();
+                   
+                    Thread.Sleep(sleepTime);
+
                 }
                 catch (ThreadInterruptedException ex)
                 {
@@ -66,41 +51,37 @@ namespace command
             shutdown = true;
             foreach (var workerThread in jobThreads)
             {
-              workerThread.Interrupt();
+               Console.WriteLine( workerThread.ThreadState);
+                workerThread.Join();
+                workerThread.Interrupt();
             }
         }
         
 
-
-        public class Worker : ThreadLocal<IJob>
+        public class Worker: ThreadLocal<IJob>
         {
 
-            static readonly object _object = new object();
-            public void Run()
-        {
-            while (!shutdown    )
+            public void Run( )
             {
-                   
-                try
-                {    
-                    var r = jobQueue.Take();
-                           
-
-                           Console.Write($"Job ID: {Thread.CurrentThread.Name} ");
-
-                        r.Run();
-                         
-                }
-                        
-
-                catch (ThreadInterruptedException ex)
+                while (!shutdown)
                 {
-                    Console.WriteLine(ex.Message);
+                    try
+                    {
+                        var r = jobQueue.Take();
+                     
+                        r.Run();
+                        Thread.Sleep(500);
+
+                    }
+                    catch (ThreadInterruptedException ex)
+                    {
+                        Console.WriteLine(ex.Message);
+                    }
                 }
-                   
+
+                
 
             }
         }
     }
-}
 }

@@ -28,9 +28,7 @@ namespace command
                 pool.AddJob(fileIOJob);
                 pool.AddJob(logJob);
             }
-          pool.startPool();
-            Thread.Sleep(50);
-            pool.ShutdownPool();
+        pool.ShutdownPool();
         }
     }
 }

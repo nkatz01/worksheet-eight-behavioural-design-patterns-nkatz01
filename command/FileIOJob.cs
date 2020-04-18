@@ -1,4 +1,5 @@
 using System;
+using System.Threading;
 
 namespace command
 {
@@ -9,7 +10,7 @@ namespace command
         {
             if (fileIO != null)
             {
-                Console.WriteLine("Executing fileIO jobs");
+                Console.WriteLine($"Job ID {Thread.CurrentThread.ManagedThreadId} Executing fileIO jobs");
                 fileIO.Execute();
 
             }
