@@ -1,0 +1,11 @@
+C:\Users\nuche\OneDrive\Documents\worksheet-eight-behavioural-design-patterns-nkatz01\interpreter\bin\Debug\netcoreapp3.1\interpreter.exe
+C:\Users\nuche\OneDrive\Documents\worksheet-eight-behavioural-design-patterns-nkatz01\interpreter\bin\Debug\netcoreapp3.1\interpreter.deps.json
+C:\Users\nuche\OneDrive\Documents\worksheet-eight-behavioural-design-patterns-nkatz01\interpreter\bin\Debug\netcoreapp3.1\interpreter.runtimeconfig.json
+C:\Users\nuche\OneDrive\Documents\worksheet-eight-behavioural-design-patterns-nkatz01\interpreter\bin\Debug\netcoreapp3.1\interpreter.runtimeconfig.dev.json
+C:\Users\nuche\OneDrive\Documents\worksheet-eight-behavioural-design-patterns-nkatz01\interpreter\bin\Debug\netcoreapp3.1\interpreter.dll
+C:\Users\nuche\OneDrive\Documents\worksheet-eight-behavioural-design-patterns-nkatz01\interpreter\bin\Debug\netcoreapp3.1\interpreter.pdb
+C:\Users\nuche\OneDrive\Documents\worksheet-eight-behavioural-design-patterns-nkatz01\interpreter\obj\Debug\netcoreapp3.1\interpreter.csprojAssemblyReference.cache
+C:\Users\nuche\OneDrive\Documents\worksheet-eight-behavioural-design-patterns-nkatz01\interpreter\obj\Debug\netcoreapp3.1\interpreter.AssemblyInfoInputs.cache
+C:\Users\nuche\OneDrive\Documents\worksheet-eight-behavioural-design-patterns-nkatz01\interpreter\obj\Debug\netcoreapp3.1\interpreter.AssemblyInfo.cs
+C:\Users\nuche\OneDrive\Documents\worksheet-eight-behavioural-design-patterns-nkatz01\interpreter\obj\Debug\netcoreapp3.1\interpreter.dll
+C:\Users\nuche\OneDrive\Documents\worksheet-eight-behavioural-design-patterns-nkatz01\interpreter\obj\Debug\netcoreapp3.1\interpreter.pdb

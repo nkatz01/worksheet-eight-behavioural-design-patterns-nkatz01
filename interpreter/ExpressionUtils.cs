@@ -4,12 +4,23 @@ namespace interpreter
     {
         public static bool IsOperator(string s)
         {
-            throw new System.NotImplementedException();
+            return s == "+" || s == "-" || s == "*";
         }
 
         public static IExpression GetOperator(string s, IExpression left, IExpression right)
         {
-            throw new System.NotImplementedException();
+            if (s == "+")  
+             return     new Add(left, right);  
+
+            else if (s == "-")  
+                return   new Subtract(left, right);  
+            else  
+                return   new Product(left, right);
+             
+
+            }
+
+
+                 
         }
     }
-}

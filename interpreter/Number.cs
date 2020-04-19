@@ -2,15 +2,16 @@ namespace interpreter
 {
     public class Number : IExpression
     {
+        private  int Num;
         internal Number(int n)
         {
-            throw new System.NotImplementedException();
+            Num = n;
         }
 
 
         public int Interpret()
         {
-            throw new System.NotImplementedException();
+            return Num ;
         }
     }
 }

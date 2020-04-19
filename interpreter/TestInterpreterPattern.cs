@@ -25,7 +25,7 @@ namespace interpreter
                 }
             }
 
-            Console.WriteLine($"( {tokenString} ) {stack.Pop().Interpret()}");
+            Console.WriteLine($"( {tokenString} ) : {stack.Pop().Interpret()}");
         }
     }
 }

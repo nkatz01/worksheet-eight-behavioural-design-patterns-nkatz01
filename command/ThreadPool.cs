@@ -51,7 +51,7 @@ namespace command
             shutdown = true;
             foreach (var workerThread in jobThreads)
             {
-               Console.WriteLine( workerThread.ThreadState);
+               
                 workerThread.Join();
                 workerThread.Interrupt();
             }
