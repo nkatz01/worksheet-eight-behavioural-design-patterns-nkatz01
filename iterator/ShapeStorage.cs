@@ -9,7 +9,10 @@ namespace iterator
         public void AddShape(string name) =>
             _shapes[_index++] = new T {Id = _index, Name = name};
 
-        // Additional methods?
+        public T[] GetShapes()
+        {
+            return _shapes; 
+        }
 
         // Indexer?
     }
