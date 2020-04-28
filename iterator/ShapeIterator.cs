@@ -5,35 +5,62 @@ using System.Collections.Generic;
 namespace iterator
 {
  
-    public class ShapeIterator<TShape> : IEnumerator<TShape>
-        where TShape : ShapeStorage<Shape>
+    public class ShapeIterator<TShape> : IEnumerator<Shape>
+      
     {
-        int position = -1;
-        private Shape[] ShapeCollection;
-        public ShapeIterator(TShape thing)
+        public Shape Current
         {
-             
-              var ShapeStorage =  (ShapeStorage<Shape>)thing;
-            ShapeCollection = ShapeStorage.GetShapes();
-            //  Console.WriteLine(ShapeCollection[0].ToString());
+            get
+            {
+                if (_position == -1) { 
+                    _position++;
+                    return ShapeCollection[_position];}
+
+                try
+                {
+                    return ShapeCollection[_position];
+                }
+                catch (IndexOutOfRangeException)
+                {
+                    throw new InvalidOperationException();
+                }
+
+            }
+        }
+
+        private TShape<Shape> ShapeStorage;
+        private Shape[] ShapeCollection;
+        private int _position; 
+        public ShapeIterator(TShape<Shape> thing)
+        {
+
+                ShapeStorage =   thing;
+
+            ShapeCollection = thing.GetShapes();
+            _position = -1; 
+           
         }
 
         public bool MoveNext()
         {
-            position++;
-            return (position < ShapeCollection.Length);
+            _position++;
+            return (_position < ShapeStorage.GetLength() ); 
         }
 
         public void Reset()
         {
-            position = -1;
+            _position = -1;
         }
 
-        public TShape Current {
-            get;
-        }
+       
 
-        object? IEnumerator.Current => Current;
+        object IEnumerator.Current
+        {
+            get
+            {
+                return Current;
+            }
+        }
 
         public void Dispose()
         {

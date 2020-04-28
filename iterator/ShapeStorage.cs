@@ -1,6 +1,6 @@
 namespace iterator
 {
-    public class ShapeStorage<T> where T : Shape, new()
+    public class ShapeStorage<T> : TShape<T> where T : Shape, new()
     {
         private const int NumberOfShapes = 5;
         private readonly T[] _shapes = new T[NumberOfShapes];
@@ -11,9 +11,20 @@ namespace iterator
 
         public T[] GetShapes()
         {
-            return _shapes; 
+            return _shapes;
+
         }
 
-        // Indexer?
+       
+
+        public int GetLength()
+        {
+            return NumberOfShapes; 
+        }
+
+       
+
+       
+       
     }
 }

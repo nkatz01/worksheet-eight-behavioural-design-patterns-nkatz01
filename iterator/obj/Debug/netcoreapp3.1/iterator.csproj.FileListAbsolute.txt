@@ -9,3 +9,14 @@ C:\Users\nuche\OneDrive\Documents\worksheet-eight-behavioural-design-patterns-nk
 C:\Users\nuche\OneDrive\Documents\worksheet-eight-behavioural-design-patterns-nkatz01\iterator\obj\Debug\netcoreapp3.1\iterator.AssemblyInfo.cs
 C:\Users\nuche\OneDrive\Documents\worksheet-eight-behavioural-design-patterns-nkatz01\iterator\obj\Debug\netcoreapp3.1\iterator.dll
 C:\Users\nuche\OneDrive\Documents\worksheet-eight-behavioural-design-patterns-nkatz01\iterator\obj\Debug\netcoreapp3.1\iterator.pdb
+C:\Users\nuche\OneDrive\Documents\worksheet-eight-behavioural-design-patterns-nkatz01\iterator - Copy\obj\Debug\netcoreapp3.1\iterator.csprojAssemblyReference.cache
+C:\Users\nuche\OneDrive\Documents\worksheet-eight-behavioural-design-patterns-nkatz01\iterator - Copy\obj\Debug\netcoreapp3.1\iterator.AssemblyInfoInputs.cache
+C:\Users\nuche\OneDrive\Documents\worksheet-eight-behavioural-design-patterns-nkatz01\iterator - Copy\obj\Debug\netcoreapp3.1\iterator.AssemblyInfo.cs
+C:\Users\nuche\OneDrive\Documents\worksheet-eight-behavioural-design-patterns-nkatz01\iterator - Copy\obj\Debug\netcoreapp3.1\iterator.dll
+C:\Users\nuche\OneDrive\Documents\worksheet-eight-behavioural-design-patterns-nkatz01\iterator - Copy\obj\Debug\netcoreapp3.1\iterator.pdb
+C:\Users\nuche\OneDrive\Documents\worksheet-eight-behavioural-design-patterns-nkatz01\iterator - Copy\bin\Debug\netcoreapp3.1\iterator.exe
+C:\Users\nuche\OneDrive\Documents\worksheet-eight-behavioural-design-patterns-nkatz01\iterator - Copy\bin\Debug\netcoreapp3.1\iterator.deps.json
+C:\Users\nuche\OneDrive\Documents\worksheet-eight-behavioural-design-patterns-nkatz01\iterator - Copy\bin\Debug\netcoreapp3.1\iterator.runtimeconfig.json
+C:\Users\nuche\OneDrive\Documents\worksheet-eight-behavioural-design-patterns-nkatz01\iterator - Copy\bin\Debug\netcoreapp3.1\iterator.runtimeconfig.dev.json
+C:\Users\nuche\OneDrive\Documents\worksheet-eight-behavioural-design-patterns-nkatz01\iterator - Copy\bin\Debug\netcoreapp3.1\iterator.dll
+C:\Users\nuche\OneDrive\Documents\worksheet-eight-behavioural-design-patterns-nkatz01\iterator - Copy\bin\Debug\netcoreapp3.1\iterator.pdb
