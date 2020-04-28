@@ -8,6 +8,6 @@ namespace mediator
         void Closed();
         void On();
         void Off();
-        bool CheckTemperature(int temp);
+        bool CheckTemperature();
     }
 }

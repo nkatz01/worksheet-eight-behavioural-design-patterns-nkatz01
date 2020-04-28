@@ -17,7 +17,13 @@ namespace mediator
             SoilRemoval soilRemoval, Valve valve)
         {
             Console.WriteLine($"............... Setting up for COTTON program ...............");
-            throw new System.NotImplementedException();
+            this.machine = machine;
+            this.heater = heater;
+            this.motor = motor;
+            this.sensor = sensor;
+            this.soilRemoval = soilRemoval;
+            this.valve = valve;
+            
         }
 
         public void Start() => machine.Start();
@@ -40,6 +46,6 @@ namespace mediator
 
         public void Off() => heater.Off();
 
-        public bool CheckTemperature(int temp) => sensor.CheckTemperature(temp);
+        public bool CheckTemperature() => sensor.CheckTemperature(40);
     }
 }

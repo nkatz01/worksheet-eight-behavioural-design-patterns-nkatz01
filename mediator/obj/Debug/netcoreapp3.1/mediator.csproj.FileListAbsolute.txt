@@ -8,3 +8,14 @@
 /Users/keith/Documents/Courses/sdp-sp3/2020/worksheet-eight-behavioural-design-patterns/mediator/obj/Debug/netcoreapp3.1/mediator.AssemblyInfo.cs
 /Users/keith/Documents/Courses/sdp-sp3/2020/worksheet-eight-behavioural-design-patterns/mediator/obj/Debug/netcoreapp3.1/mediator.dll
 /Users/keith/Documents/Courses/sdp-sp3/2020/worksheet-eight-behavioural-design-patterns/mediator/obj/Debug/netcoreapp3.1/mediator.pdb
+C:\Users\nuche\OneDrive\Documents\worksheet-eight-behavioural-design-patterns-nkatz01\mediator\obj\Debug\netcoreapp3.1\mediator.csprojAssemblyReference.cache
+C:\Users\nuche\OneDrive\Documents\worksheet-eight-behavioural-design-patterns-nkatz01\mediator\obj\Debug\netcoreapp3.1\mediator.AssemblyInfoInputs.cache
+C:\Users\nuche\OneDrive\Documents\worksheet-eight-behavioural-design-patterns-nkatz01\mediator\obj\Debug\netcoreapp3.1\mediator.AssemblyInfo.cs
+C:\Users\nuche\OneDrive\Documents\worksheet-eight-behavioural-design-patterns-nkatz01\mediator\obj\Debug\netcoreapp3.1\mediator.dll
+C:\Users\nuche\OneDrive\Documents\worksheet-eight-behavioural-design-patterns-nkatz01\mediator\obj\Debug\netcoreapp3.1\mediator.pdb
+C:\Users\nuche\OneDrive\Documents\worksheet-eight-behavioural-design-patterns-nkatz01\mediator\bin\Debug\netcoreapp3.1\mediator.exe
+C:\Users\nuche\OneDrive\Documents\worksheet-eight-behavioural-design-patterns-nkatz01\mediator\bin\Debug\netcoreapp3.1\mediator.deps.json
+C:\Users\nuche\OneDrive\Documents\worksheet-eight-behavioural-design-patterns-nkatz01\mediator\bin\Debug\netcoreapp3.1\mediator.runtimeconfig.json
+C:\Users\nuche\OneDrive\Documents\worksheet-eight-behavioural-design-patterns-nkatz01\mediator\bin\Debug\netcoreapp3.1\mediator.runtimeconfig.dev.json
+C:\Users\nuche\OneDrive\Documents\worksheet-eight-behavioural-design-patterns-nkatz01\mediator\bin\Debug\netcoreapp3.1\mediator.dll
+C:\Users\nuche\OneDrive\Documents\worksheet-eight-behavioural-design-patterns-nkatz01\mediator\bin\Debug\netcoreapp3.1\mediator.pdb

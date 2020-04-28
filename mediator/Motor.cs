@@ -1,8 +1,15 @@
+using System;
+
 namespace mediator
 {
     public class Motor
     {
-        public void StartMotor() => throw new System.NotImplementedException();
-        public void RotateDrum(int rpm) => throw new System.NotImplementedException();
+        public void StartMotor() =>   Console.WriteLine("Start motor...");
+           
+        
+
+        
+
+        public void RotateDrum(int rpm) => Console.WriteLine($"Rotating drum at {rpm} rpm.");
     }
 }
