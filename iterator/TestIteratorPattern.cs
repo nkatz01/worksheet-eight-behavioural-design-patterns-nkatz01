@@ -22,7 +22,7 @@ namespace iterator
             while (iterator.MoveNext())
             {
                  Console.WriteLine(iterator.Current);
-               // Console.WriteLine( iterator.Current.ToString());
+              
             }
 
             Console.WriteLine("Removing items while iterating...");

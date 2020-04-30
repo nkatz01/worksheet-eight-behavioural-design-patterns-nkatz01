@@ -12,9 +12,7 @@ namespace iterator
         {
             get
             {
-                if (_position == -1) { 
-                    _position++;
-                    return ShapeCollection[_position];}
+               
 
                 try
                 {
